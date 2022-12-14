@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     padding: 0;
     margin: 0;
@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
 }
 a{
     text-decoration: none;
@@ -14,10 +15,12 @@ a{
 .nav-brit{
     background-color: rgb(0, 0, 88);
     width: 100%;
+
 }
 .nav-brit-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-content: center;
     list-style: none;
     color: white;
     margin: 0;
@@ -28,10 +31,10 @@ a{
     width: 150px;
 }
 .btn-sub{
-    background-color: red;
+    background-color: darkred;
     color: white;
     border-radius: 10px;
-    border-color: red;
+    border-color: darkred;
     font-weight: bold;
 }
 .nav-sub{
@@ -39,6 +42,7 @@ a{
     display: flex;
     justify-content: left ;
     align-items: flex-start;
+    text-align: left;
     gap: 15px;
 }
 .container{
@@ -53,6 +57,7 @@ a{
     padding: 10px;
     max-width: 800px;
     min-width: 300px;
+    background-color: white;
     
 }
 

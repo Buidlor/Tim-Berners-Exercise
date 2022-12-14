@@ -1,0 +1,82 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.nav-brit-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: darkblue;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+.logo-brit{
+    width: 150px;
+}
+.nav-sub{
+    margin: 10px 0 10px 10px;
+    display: flex;
+    justify-content: left ;
+    align-items: center;
+    gap: 15px;
+}
+.container{
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.container-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list-buttons{
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    gap: 10px ;
+
+}
+.text-under-buttons{
+    font-size: 70%;
+}
+.profile{
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+.pic-and-text{
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pic-and-text img{
+    width: 150px;
+
+}
+.bio-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+

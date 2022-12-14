@@ -5,32 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Tim Berners</title>
 </head>
 <body>
-    <main>
-        <nav class="nav-brit">
-            <img src="" alt="" class="hamburger">
-            <h1>Britannica</h1>
-            <button class="btn-sub">Subscribe</button>
-            <img src="" alt="login icon" class="login-icon">
-        </nav>
-        <nav class="nav-sub">
-            <a href="">Home</a>
-            <a href="">Science</a>
-            <a href="">Mathematics</a>
-        </nav>
+    <nav class="nav-brit">
+        <ul class="nav-brit-list">
+            <li><i class="fa-solid fa-bars"> </i><i class="fa-solid fa-magnifying-glass"> </i></li>
+
+            <li><img src="images/britanica logo.webp" alt="britanica logo" class="logo-brit"></li>
+            
+            <li><button class="btn-sub">Subscribe</button></li> 
+        </ul>
+    </nav>
+    <nav class="nav-sub">
+        <a href="">Home</a>
+        <a href="">Science</a>
+        <a href="">Mathematics</a>
+    </nav>
+    <main class="container">
         <header class="container-headline">
             <section class="titles">
                 <h1>Tim Berners-Lee</h1>
-                <h2>British scientist</h2>
-            </section>
+                <h3>British scientist</h3>
+            </section>  
             <section class="buttons">
-                <ul>
+                <ul class="list-buttons">
                     <li><button class="button">print</button></li>
                     <li><button class="button">cite</button></li>
                     <li><button class="button">share</button></li>
-                    <li><button class="button"><img src="" alt="burger icon"></button></li>
+                    <li><button class="button">feedback</button></li>
+                    <li><button class="button"><strong>:</strong></button></li>
                 </ul>
             </section>
             <section class="text-under-buttons">
@@ -39,17 +47,17 @@
 
         </header>
         <section class="profile">
-            <div class="pic-text">
-                <img src="images/profilePic.webp" alt="picture of Tim">
+            <div class="pic-and-text">
+                <img src="images/profilePic.webp" alt="picture of Tim" >
                 <p>Tim Berners Lee</p>
             </div>
             <div class="bio">
                 <ul class="bio-list">
                     <li><p><strong>Born:</strong>  June 8, 1955 (age 67) - London -England</p></li>
-                    <li><p><strong>Founder</strong>World Wide Web Consortium</p></li>
-                    <li><p><strong>Inventions</strong>World Wide Web World Wide Web</p></li>
+                    <li><p><strong>Founder:</strong>World Wide Web Consortium</p></li>
+                    <li><p><strong>Inventions:</strong>World Wide Web World Wide Web</p></li>
                 </ul>
-                <button class="related">See all related content</button>
+                <button class="btn-related">See all related content</button>
             </div>
         </section>
         <article class="article">

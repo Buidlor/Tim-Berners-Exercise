@@ -1,0 +1,144 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+h1, h4{
+    line-height: 20%;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+.nav-brit{
+    background-color: rgb(0, 0, 88);
+    width: 100%;
+
+}
+.nav-brit-list{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    
+}
+.logo-brit{
+    width: 150px;
+}
+.btn-sub{
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    border-color: darkred;
+    font-weight: bold;
+}
+.nav-sub{
+    margin: 10px 0 10px 10px;
+    display: flex;
+    justify-content: left ;
+    align-items: flex-start;
+    text-align: left;
+    gap: 15px;
+}
+.container{
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 15px;
+    padding: 10px;
+    max-width: 800px;
+    min-width: 300px;
+    background-color: white;
+    
+}
+
+.container-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list-buttons{
+    display: flex;
+    list-style: none;
+    gap: 5px ;
+    left: 0px;
+    padding-left: 0px;
+}
+.text-under-buttons{
+    font-size: 70%;
+}
+
+.profile{
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    width: 290px;
+}
+.pic-and-text{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    padding-bottom: 0px;
+}
+.pic-and-text img{
+    width: 220px;
+}
+.bio-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    text-align: left;
+   
+}
+
+button{
+    background-color: white;
+    border: 1px solid silver; border-radius: 0.25em; padding: 0.5em;
+    color: darkblue;
+}
+li p{
+    margin-bottom: 1px;   
+}
+
+@media only screen and (min-width:798px){
+    .article{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+}
+
+

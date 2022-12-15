@@ -6,11 +6,18 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: whitesmoke;
 }
 a{
     text-decoration: none;
+}
+h1, h4{
+    line-height: 20%;
+}
+li{
+    display: flex;
+    align-items: center;
 }
 .nav-brit{
     background-color: rgb(0, 0, 88);
@@ -64,19 +71,20 @@ a{
 .container-headline{
     display: flex;
     flex-direction: column;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .list-buttons{
     display: flex;
     list-style: none;
-    align-items: center;
     gap: 5px ;
     left: 0px;
+    padding-left: 0px;
 }
 .text-under-buttons{
     font-size: 70%;
 }
+
 .profile{
     border-style: groove;
     border-width: 1px;
@@ -87,27 +95,32 @@ a{
     width: 290px;
 }
 .pic-and-text{
-    flex-direction: column;
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+    align-items: flex-start;
+    margin: 10px;
+    padding-bottom: 0px;
 }
 .pic-and-text img{
     width: 220px;
-
 }
 .bio-list{
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
 }
 .bio{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
+    text-align: left;
    
 }
 
@@ -116,4 +129,16 @@ button{
     border: 1px solid silver; border-radius: 0.25em; padding: 0.5em;
     color: darkblue;
 }
+li p{
+    margin-bottom: 1px;   
+}
+
+@media only screen and (min-width:798px){
+    .article{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+}
+
 
